@@ -2,7 +2,7 @@
 
 This script will install `asyncssh` onto the ceph base image, and copy my local cephadm binary into image.
 
-Context for `docker build` in `run.sh` is set to `/home/melissali/Downloads` where the Dockerfile is. My local cephadm binary path is `/home/melissali/Downloads/ceph/src/cephadm`, and the destination directory for cephadm is `/usr/sbin` 
+Context for `docker build` in `run.sh` is set to `/home/melissali/Downloads` where the Dockerfile is. My local cephadm binary path is `/home/melissali/Downloads/ceph/src/cephadm/cephadm`, and the destination for cephadm is `/usr/sbin/cephadm` 
 
 1. Run a local docker registry
 
